@@ -1,6 +1,6 @@
 //import java.util.*;
 
-public class UtilBanque {
+public class Patate {
 
 	public static void main(String[] args) {
 		Banque Bank = new Banque();
