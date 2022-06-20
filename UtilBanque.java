@@ -10,6 +10,7 @@ public class UtilBanque {
 		Bank.CreerCompte("CeB01", "Caiss", "Jean", "Lyon");
 		
 			System.out.println("PAS OK");
+			System.out.println("Bonsoir");
 		
 		//Menu
 		/*do {
