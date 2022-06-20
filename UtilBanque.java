@@ -8,7 +8,7 @@ public class UtilBanque {
 		int Choix = 0;
 		
 		Bank.CreerCompte("CeB01", "Caiss", "Jean", "Lyon");
-		
+	
 			System.out.println("PAS OK");
 			System.out.println("Bonsoir");
 		
