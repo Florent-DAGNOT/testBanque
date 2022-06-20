@@ -8,28 +8,7 @@ public class UtilBanque {
 		int Choix = 0;
 		
 		Bank.CreerCompte("CeB01", "Caiss", "Jean", "Lyon");
-		Bank.CreerCompte("CeB02", "Clair", "Marie", "Paris");
-		Bank.CreerCompte("CeB03", "Abaco", "Josianne", "Bordeaux");
-		Bank.CreerCompte("CeB04", "McThune", "John", "Marseille");
 		
-		Bank.Crediter("CeB01", 100);
-		Bank.Crediter("CeB02", 100);
-		Bank.Crediter("CeB03", 1500);
-		Bank.Debiter("CeB04", 250);
-		
-		Bank.AfficheLesComptes();
-		
-		Bank.Crediter("CeB04", 750);
-		Bank.Crediter("CeB04", 300);
-		Bank.Debiter("CeB04", 200);
-		
-		System.out.println("SommeCredit: " + Bank.SommeCredit("CeB04"));
-		
-		System.out.println("Difference: " + (Bank.SommeCredit("CeB04")-Bank.SommeDebit("CeB04")));
-		
-		if (Bank.DonneSolde("CeB04") - (Bank.SommeCredit("CeB04") - Bank.SommeDebit("CeB04")) == 0)
-			System.out.println("OK");
-		else
 			System.out.println("PAS OK");
 		
 		//Menu
